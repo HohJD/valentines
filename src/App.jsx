@@ -187,7 +187,7 @@ function App() {
       {!yesPressed ? (
         <div className="container" ref={containerRef}>
           <img src={valentineImg} alt="Us" className="valentine-img" />
-          <h1>Lay Chen Ssi, Will you be my Valentine? 💗</h1>
+          <h1>Ms Lay Chen, Would you like to spend every Valentine's days with me? 💗</h1>
           <div className="buttons">
             <button
               className="btn-yes"
@@ -216,7 +216,7 @@ function App() {
           <div className="container success-message" style={{ display: 'block' }}>
             <img src={penguinImg} alt="Penguin" className="penguin-img" />
             <h1 className="success-text">Yay, I knew you’d say yes!</h1>
-            <p className="sub-text">🥰💐Dont ever think no😌.Piak ni ah😏. Anyway, I hope you stay happy and lots of laughter as always everyday.</p>
+            <p className="sub-text">🥰💐Dont ever think no😌.Piak ni ah😏. Anyway, I hope you stay happy and lots of laughter on every valentine's day.</p>
           </div>
           <canvas ref={confettiCanvasRef} id="confetti"></canvas>
         </>
